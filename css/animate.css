@@ -1,0 +1,30 @@
+body {
+	/*background-color: rgb(163, 217, 255);*/
+	/*background-color: #A3D9DE;*/
+
+	background-color: rgb(150, 177, 193);
+}
+
+img {
+	position: absolute;
+	top: 0px;
+}
+
+.logo {
+	z-index: 100;
+}
+
+.animate {
+	animation-duration: 30s;
+	animation-name: cloud;
+}
+
+@keyframes cloud {
+	from {
+		margin-left: 100%;
+	}
+
+	to {
+		margin-left: 0%;
+	}
+}
