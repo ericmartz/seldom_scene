@@ -1,0 +1,140 @@
+body {
+	/*background-color: rgb(163, 217, 255);*/
+	/*background-color: #A3D9DE;*/
+	max-width: 1000px;
+	background-color: rgb(150, 177, 193);
+	font-family: Arial, Sans-Serif;
+	margin: auto;
+}
+
+.translucent-background {
+  margin-top: 2em;
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.75); 
+}
+
+.logo {
+	z-index: 100;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover {
+	color: #FFF;
+}
+
+.sidebar {
+	float: left;
+	width: 25%;
+}
+
+.content {
+	float: right;
+	width: 70%;
+}
+
+section {
+	padding: 2em;
+}
+
+.headshot {
+	margin: 1em;
+	float: left;
+}
+
+/**********************************
+Navigation
+**********************************/
+nav {
+	/*font-family: "Times New Roman", Times, serif;*/
+}
+
+nav ul li {
+	list-style-type: none;
+	margin: .5em;
+	text-align: center;
+}
+
+
+
+
+/**********************************
+Styles for the moving clouds
+**********************************/
+
+.animate {
+	position: fixed;
+	top: 10px;
+	z-index: -100;
+	animation-duration: 30s;
+	animation-name: cloud;
+}
+
+/**********************************
+Here are the keyframes
+**********************************/
+
+@keyframes cloud {
+	from {
+		margin-left: 100%;
+	}
+
+	to {
+		margin-left: 0%;
+	}
+}
+
+
+/**********************************
+This is for the Contact Form
+**********************************/
+/*:invalid { 
+  border-color: rgb(150, 177, 193);
+  -webkit-box-shadow: 0 0 5px rgba(255, 0, 0, .8);
+  -moz-box-shadow: 0 0 5px rbba(255, 0, 0, .8);
+  -o-box-shadow: 0 0 5px rbba(255, 0, 0, .8);
+  -ms-box-shadow: 0 0 5px rbba(255, 0, 0, .8);
+  box-shadow:0 0 5px rgba(255, 0, 0, .8);
+}*/
+
+:required {
+  border-color: rgb(150, 177, 193);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+  -o-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+  -ms-box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+  box-shadow: 0 0 5px rgba(0, 0, 255, .5);
+}
+
+form {
+  width:300px;
+  margin:20px auto;
+  color:#000;
+}
+
+input, textarea {
+  font-family: Helvetica, Arial, sans-serif;
+  border:1px solid rgb(150, 177, 193);
+  font-size:20px;
+  width:300px;
+  min-height:30px;
+  display:block;
+  margin-bottom:15px;
+  margin-top:5px;
+  outline: none;
+
+  /*-webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  -o-border-radius:5px;
+  -ms-border-radius:5px;
+  border-radius:5px;*/
+}
+
+input[type=submit] {
+  background: rgb(150, 177, 193);
+  padding:10px;
+  color:#FFF;
+}

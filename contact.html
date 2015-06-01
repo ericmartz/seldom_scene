@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Seldom Scene Theatre Company | Atlanta, GA</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class="sidebar">
+		<img class="logo" src="img/seldom-scene-logo-tall.png">
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="next.html">Coming Next</a></li>
+	    		<li><a href="mission.html">Mission</a></li>
+	    		<li><a href="bios.html">Bios</a></li>
+	    		<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</div> <!-- End Sidebar Nav -->
+	<div class="content">
+		<section class="contact translucent-background">
+			<form action="#" method="post">
+            	<label for="name">Full name:</label>
+  				<input type="text" name="full_name" id="name" placeholder="First and Last Name" required>
+        
+        		<label for="number">Phone Number:</label>
+  				<input type="text" name="phone_number" id="number" placeholder="555-123-1234" required>
+
+  				<label for="email_address" >Email address:</label>
+				<input type="email" id="email_address" name="email_addr" required>
+
+  				<label for="email_address_verify">Verify email address:</label>
+  				<input type="email" id="email_address_verify" name="email_address_verify" required oninput="check(this)">
+        
+        		<label for="message">Message:</label>
+        		<textarea name="message" id="message" cols="25" rows="4" required></textarea>
+                
+  				<input type="submit" value="Send Contact Form" /> 
+        	</form>
+		</section>
+	</div>
+</body>
+</html>
