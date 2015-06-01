@@ -1,0 +1,9 @@
+- More clouds.
+- Background color: Make it lighter for less contrast.
+- Extra space on the Coming Next Tab: "* the "Coming Next" tab- could you put a space between the opening headline and the first sentence (above the line which starts "Seldom Scene Theatre will kick off its operations..."
+- Logo larger
+- Style the headings so they look like headings
+- Looking for a better font
+- Style the content background so it is not just a block of translucent background
+- Script the contact form so it works
+- Maybe style the homepage so the announcement is larger
