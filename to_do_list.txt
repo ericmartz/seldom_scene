@@ -1,4 +1,4 @@
-- More clouds.
+ - - More clouds.
 X Background color: Make it lighter for less contrast. (Moved from 75% opaque to 45% opaque)
 X Extra space on the Coming Next Tab: "* the "Coming Next" tab- could you put a space between the opening headline and the first sentence (above the line which starts "Seldom Scene Theatre will
   kick off its operations..."

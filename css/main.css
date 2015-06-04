@@ -1,9 +1,11 @@
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Playfair Display SC', serif; */
 body {
 	/*background-color: rgb(163, 217, 255);*/
 	/*background-color: #A3D9DE;*/
 	max-width: 1000px;
 	background-color: rgb(150, 177, 193);
-	font-family: Arial, Sans-Serif;
+	font-family: 'Playfair Display', serif;
 	margin: auto;
 	font-size: 16px;
 }
@@ -39,10 +41,33 @@ section {
 	float: left;
 }
 
-h1 {
-	font-size: 2em;
-	margin-bottom: .5em;
+p {
+	line-height: 1.5em;
 }
+
+h1 {
+	font-family: 'Playfair Display SC', serif;
+	font-size: 1.5em;
+	margin-bottom: .5em;
+	text-align: center;
+}
+
+.announcement {
+	text-align: center;
+	font-size: 2em;
+	margin-top: 1em;
+	line-height: 1em;
+}
+
+.byline {
+	float: right;
+	font-size: 1.25em;
+	margin-right: 1.75em;
+	margin-top: .5em;
+	padding-bottom: 1em;
+	line-height: 1em;
+}
+
 
 /**********************************
 Navigation
@@ -120,7 +145,7 @@ form {
 }
 
 input, textarea {
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Playfair Display', serif;
   border:1px solid rgb(150, 177, 193);
   font-size:20px;
   width:300px;
