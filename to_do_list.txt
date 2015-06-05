@@ -5,7 +5,6 @@ X Extra space on the Coming Next Tab: "* the "Coming Next" tab- could you put a 
 X Logo larger (Made the logo 20% bigger, 10% didn't provide hardly ny contrast)
 X Style the headings so they look like headings
 X Looking for a better font
-- Style the content background so it is not just a block of translucent background
 - Script the contact form so it works
 X Maybe style the homepage so the announcement is larger
 X Style the menu (in progress)
