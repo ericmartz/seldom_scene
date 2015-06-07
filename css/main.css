@@ -1,5 +1,3 @@
-/* font-family: 'Playfair Display', serif; */
-/* font-family: 'Playfair Display SC', serif; */
 body {
 	max-width: 1000px;
 	background-color: rgb(150, 177, 193);
@@ -23,11 +21,6 @@ a {
 	color: #000;
 }
 
-nav ul {
-	position: fixed;
-	top: 0;
-}
-
 nav ul li {
 	list-style-type: none;
 	padding: .5em;
@@ -35,7 +28,49 @@ nav ul li {
 	color: #000;
 	background-color: white;
 	background-color: rgba(255, 255, 255, 0.35);
-	display: inline;
+}
+
+h1 {
+	font-family: 'Playfair Display SC', serif;
+	font-size: 1.5em;
+	margin-bottom: .5em;
+	text-align: center;
+}
+
+section {
+	padding: 2em;
+}
+
+.content-image {
+	margin: 1em;
+	float: left;
+}
+
+p {
+	line-height: 1.5em;
+}
+
+h1 {
+	font-family: 'Playfair Display SC', serif;
+	font-size: 1.5em;
+	margin-bottom: .5em;
+	text-align: center;
+}
+
+.announcement {
+	text-align: center;
+	font-size: 2em;
+	margin-top: 1em;
+	line-height: 1em;
+}
+
+.byline {
+	float: right;
+	font-size: 1.25em;
+	margin-right: 1.75em;
+	margin-top: .5em;
+	padding-bottom: 1em;
+	line-height: 1em;
 }
 
 .animate-logo-cloud {
@@ -123,43 +158,6 @@ input[type=submit] {
 		width: 70%;
 	}
 
-	section {
-		padding: 2em;
-	}
-
-	.content-image {
-		margin: 1em;
-		float: left;
-	}
-
-	p {
-		line-height: 1.5em;
-	}
-
-	h1 {
-		font-family: 'Playfair Display SC', serif;
-		font-size: 1.5em;
-		margin-bottom: .5em;
-		text-align: center;
-	}
-
-	.announcement {
-		text-align: center;
-		font-size: 2em;
-		margin-top: 1em;
-		line-height: 1em;
-	}
-
-	.byline {
-		float: right;
-		font-size: 1.25em;
-		margin-right: 1.75em;
-		margin-top: .5em;
-		padding-bottom: 1em;
-		line-height: 1em;
-	}
-
-
 	/**********************************
 	Navigation
 	**********************************/
@@ -167,13 +165,7 @@ input[type=submit] {
 		position: relative;
 	}
 
-	nav ul li {
-		list-style-type: none;
-		padding: .5em;
-		text-align: center;
-		color: #000;
-		background-color: white;
-	  	background-color: rgba(255, 255, 255, 0.35); 
+	nav ul li { 
 	  	display: block;
 	}
 
