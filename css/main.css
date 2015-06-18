@@ -68,6 +68,15 @@ h1 {
 	line-height: 1em;
 }
 
+.quote {
+	position: absolute;
+	bottom: 0;
+}
+
+.quote-attribute {
+	padding-left: 5em;
+}
+
 .byrdbrane-productions {
 	float: right;
 	width: 70%;
