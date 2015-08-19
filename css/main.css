@@ -71,6 +71,11 @@ h1 {
 .quote {
 	position: absolute;
 	bottom: 0;
+	height: 5em;
+}
+
+.quote p {
+	margin-bottom: .4em;
 }
 
 .quote-attribute {
@@ -95,6 +100,12 @@ h1 {
 .byrdbrane-logo img {
 	width: 100%;
 	height: auto;
+}
+
+.big-mama-logo {
+	max-height: 350px;
+	display: block;
+	margin: auto;
 }
 
 /**********************************
