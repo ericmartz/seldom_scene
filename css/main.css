@@ -24,7 +24,7 @@ body {
 
 .sidebar {
 	float: left;
-	width: 25%;
+	width: 28%;
 }
 
 .content {
@@ -68,6 +68,10 @@ h1 {
 	line-height: 1em;
 }
 
+.footnote {
+  float: right;
+}
+
 .quote {
 	position: absolute;
 	bottom: 0;
@@ -108,9 +112,22 @@ h1 {
 	margin: auto;
 }
 
+.positions {
+  margin: 1em;
+}
+
+.positions-item {
+  margin: .25em;
+}
+
 /**********************************
 Navigation
 **********************************/
+nav {
+  background-color: white;
+  background-color: rgba(255, 255, 255, 0.35); 
+}
+
 a {
 	text-decoration: none;
 	color: #000;
@@ -119,15 +136,22 @@ a {
 nav ul li {
 	list-style-type: none;
 	padding: .5em;
-	text-align: center;
 	color: #000;
-	background-color: white;
-  	background-color: rgba(255, 255, 255, 0.35); 
 }
 
 nav ul li:hover {
 	background-color: rgba(0, 0, 0, .35);
 	color: #FFF;
+}
+
+.nav-left {
+  display: inline;
+  float: left;
+}
+
+.nav-right {
+  display: inline;
+  float: right;
 }
 
 /**********************************
